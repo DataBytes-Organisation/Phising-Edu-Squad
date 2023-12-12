@@ -1,0 +1,64 @@
+/* Header2.css */
+
+.header {
+    position: relative;
+    max-width: 500px; /* Set this to the width of your largest image */
+    margin: auto;
+  }
+  
+  .slideshow-container {
+    position: relative;
+  }
+  
+  .slide {
+    display: none; /* Hide slides by default */
+    position: absolute; /* Position slides on top of each other */
+    width: 100%;
+  }
+  
+  .slide.active {
+    display: block; /* Show the active slide */
+  }
+  
+  .slide img {
+    width: 100%; /* Set image to stretch to container width */
+    height: auto; /* Set image height to auto to maintain aspect ratio */
+  }
+  
+  .slide-text {
+    position: absolute;
+    bottom: 10px; /* Position text at the bottom of the slide */
+    left: 10px; /* Position text from the left of the slide */
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for text */
+    padding: 10px;
+  }
+  
+  .slideshow-container {
+    position: relative;
+    /* ... */
+  }
+  
+  .dots-container {
+    text-align: center;
+    position: absolute;
+    bottom: 15px; /* Adjust as needed to move it up from the very bottom */
+    left: 0;
+    right: 0;
+    z-index: 10; /* Ensures dots are above the images */
+  }
+  
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #f56f6f;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.9s ease;
+  }
+  
+  .dot.active {
+    background-color: #c40707; /* Active dot color */
+  }

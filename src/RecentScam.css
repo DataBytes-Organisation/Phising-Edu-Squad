@@ -1,0 +1,71 @@
+.recent-scam-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff; /* or any color you prefer */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+  }
+  
+  .scam-image-wrapper {
+    flex: 1;
+    padding-right: 20px; /* Adjust spacing as needed */
+    margin-top: 50px;
+  }
+
+  .recentscam h3{
+    font-size: 20px;
+    margin-top: 20px;
+    color: blue;
+    font-style: italic;
+  }
+  
+  .scam-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .scam-detail-wrapper {
+    flex: 2;
+    text-align: left;
+  }
+  
+  .recent-scam-container h2 {
+    margin-bottom: 10px;
+  }
+  
+  .recent-scam-container p {
+    margin-bottom: 20px;
+  }
+  
+  .recent-scam-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .recent-scam-container ul li {
+    margin-bottom: 10px;
+  }
+  
+  .recent-scam-container button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 5px;
+  }
+  
+  .recent-scam-container button:hover {
+    background-color: #0056b3;
+  }
+
+ 
+
+  

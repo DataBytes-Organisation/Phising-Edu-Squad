@@ -1,0 +1,124 @@
+/* Header Styles */
+header {
+    background-color:#f0f8ff;
+    ;
+    color: black;
+    padding: 0;
+    margin-left: 60px;
+    margin-right: 70px;
+    margin-bottom: 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  
+  
+
+  .slide {
+    display: none;
+  }
+  
+  .slide.active {
+    display: block;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .slide-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    font-weight: bold;
+    
+    color: #c40707;
+    margin-left: 200px;
+  }
+
+  .slide-sentence {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1rem;
+    font-weight: bold;
+    
+    margin-left: 200px;
+  }
+
+  .slide img {
+    max-width: 450px; /* Set your desired maximum width */
+    height: 300px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+  }
+  
+  .slideshow-container {
+    position: relative;
+    /* ... */
+  }
+  
+  .dots-container {
+    text-align: center;
+    position: absolute;
+    bottom: 15px; /* Adjust as needed to move it up from the very bottom */
+    left: 0;
+    right: 0;
+    z-index: 10; /* Ensures dots are above the images */
+  }
+  
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #f56f6f;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.9s ease;
+  }
+  
+  .dot.active {
+    background-color: #c40707; /* Active dot color */
+  }
+
+  /* Styles for the popup notification */
+.popup {
+  position: fixed;
+  top: 200px; /* Adjust the top distance from the screen's top edge */
+  right: 150px; /* Adjust the right distance from the screen's right edge */
+  
+  color: green; /* Adjust the text color of the popup */
+  border-radius: 5px;
+  padding: 10px;
+  z-index: 9999;
+  opacity: 0;
+  animation: flicker 5s infinite;}
+
+/* Keyframes for flickering animation */
+@keyframes flicker {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,19 @@
+/* Homepage Styles */
+.home {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    font-size: 1.2rem;
+  }
+  
+  /* Add styles for blog post/article cards or other content on the homepage */
+  

@@ -1,0 +1,30 @@
+/* Homepage.css */
+
+.article-content p {
+    text-align: left;
+    margin-left: 20px;
+  }
+  
+  /* To ensure that the last line of a paragraph is not justified, which can look awkward */
+  .article-content p:after {
+    content: '';
+    display:contents;
+    width: 100%;
+  }
+  
+  .article-image {
+  width: 100%; /* This will make the image responsive */
+  max-width: 400px; /* This is the maximum width the image will have */
+  height: auto; /* This will maintain the aspect ratio of the image */
+  display: block; /* This will prevent inline spacing issues */
+  margin: 0 auto; /* This will center the image in the container */
+}
+
+h1{
+  margin-top: 100px;
+  font-style: italic;
+  color: green;
+}
+
+  /* Add styles for other elements as needed */
+  

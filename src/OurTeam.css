@@ -1,0 +1,43 @@
+/* OurTeam.css */
+
+.our-team {
+    text-align: center;
+    padding: 30px;
+  }
+  
+  .our-team h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .our-team p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 40px;
+  }
+  
+  .team-member {
+    display: inline-block;
+    margin: 0 20px;
+    text-align: center;
+  }
+  
+  .team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 3px solid #007acc;
+  }
+  
+  .team-member h4 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .team-member p {
+    font-size: 16px;
+    color: #666;
+  }
+  
